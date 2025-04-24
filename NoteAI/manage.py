@@ -19,3 +19,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# 👇 Add this to expose the WSGI callable for gunicorn
+from django.core.wsgi import get_wsgi_application
+main = get_wsgi_application()
