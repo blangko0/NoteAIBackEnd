@@ -5,7 +5,7 @@ python-dotenv==0.21.0
 pytesseract==0.3.10
 Pillow==9.5.0
 PyPDF2==1.26.0
-python-docx==0.8.18
+python-docx==0.8.11
 textract==1.6.5
 groq==0.23.0
 openai==1.24.1
